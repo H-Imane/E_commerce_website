@@ -1,0 +1,157 @@
+
+.stats {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.row-actions {
+  display: inline-flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.btn-danger {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #dc2626;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.client__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4338ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.client__name {
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.client__email {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.contact__line {
+  line-height: 1.35;
+}
+
+.contact__muted {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.badge--success {
+  background: #f0fdf4;
+  color: #15803d;
+  border-color: #bbf7d0;
+}
+
+.badge--danger {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-color: #fecaca;
+}
+
+/* Modal (client page uses modal__* class names) */
+.modal__overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.modal__content {
+  position: relative;
+  width: min(920px, 100%);
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.22);
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.modal__header h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.modal__close {
+  border: none;
+  background: transparent;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: #64748b;
+  line-height: 1;
+}
+
+.modal__body {
+  padding: 1.25rem 1.5rem;
+}
+
+.modal__footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.detail {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  background: #ffffff;
+}
+
+.detail__label {
+  color: #64748b;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.detail__value {
+  margin-top: 0.25rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+@media (max-width: 900px) {
+  .detail-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
