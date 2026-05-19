@@ -1,14 +1,12 @@
-# 🛒 Hora House – Plateforme e-commerce Web
+# 🛒 My Percume – Plateforme e-commerce Web
 
-> Projet e-commerce complet (frontend + backend) pour la vente de montres en ligne.
+> Projet e-commerce complet (frontend + backend) pour la vente de parfums en ligne.
 
 ---
 
 ## 📖 Description
 
-**Hora House** est une plateforme e-commerce moderne, responsive et sécurisée, conçue pour vendre des montres en ligne.  
-Le projet combine une expérience utilisateur fluide (catalogue, panier, comptes) avec un panneau d’administration complet (dashboard, CRUD, exports).
-
+My Perfume est une application web e-commerce complète, développée pour proposer une expérience d'achat de parfums en ligne fluide et sécurisée. Le projet s'articule autour de deux espaces distincts : une interface client intuitive permettant de parcourir le catalogue, gérer son panier et son compte, et un back-office administrateur offrant un dashboard, la gestion complète des produits, des commandes et des exports CSV.
 ---
 
 ## 📁 Structure du projet
