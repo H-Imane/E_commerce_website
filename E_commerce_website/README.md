@@ -1,4 +1,4 @@
-# 🛒 My Percume – Plateforme e-commerce Web
+# 🛒 My Perfume – Plateforme e-commerce Web
 
 > Projet e-commerce complet (frontend + backend) pour la vente de parfums en ligne.
 
